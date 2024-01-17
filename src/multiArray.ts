@@ -14,5 +14,5 @@
 
 export function processMultiArray(arr) {
     // 在此實現函式
-    return arr.map((subArr) => subArr.map((num) => num * 3));
+    return arr.map((subArr) => subArr.map((num) => num * 2));
 }
