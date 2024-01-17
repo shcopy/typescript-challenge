@@ -6,6 +6,10 @@
  * 範例:
  * 輸入: [[1, 2], [3, 4], [5, 6]]
  * 輸出: [[2, 4], [6, 8], [10, 12]]
+ * 
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+ * 
+ * 
  */
 
 export function processMultiArray(arr) {

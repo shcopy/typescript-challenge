@@ -15,5 +15,10 @@
 
 export function addTodo(todos: Todo[], task: string): Todo[] {
     // 在此實現函式
+    let newTodo: Todo = {
+        id: todos.length + 1,
+        task: task,
+        completed: false,
+      };
     return [...todos, newTodo];
 }
