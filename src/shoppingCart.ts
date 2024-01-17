@@ -22,6 +22,7 @@ export function createShoppingCart() {
      */
     function getTotalPrice() {
         // 請在此處寫下你的程式碼
+        return items.reduce((accumulator: number, currentValue: Product) => accumulator + currentValue.price, 0);
     }
 
     function getItemCount() {

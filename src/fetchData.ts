@@ -6,4 +6,16 @@
  */
 
 // 請在下方寫下你的程式碼
+export interface FetchData {
+    userId: number,
+    id: number,
+    title: string,
+    completed: boolean
+}
 
+// 請在下方寫下你的程式碼
+export async function fetchData(url: string): Promise<FetchData> {
+    return await fetch(url)
+        .then(response => response.json())
+        .catch(err => console.error(err));
+}

@@ -21,7 +21,7 @@ npm run test
 ### 基本變數
 - V 溫度轉換器：temperatureConverter
 - V 簡單計算器：calculator
-- 布林值判斷：booleanChecker
+- V 布林值判斷：booleanChecker
 
 ### 函式與類型標註
 - V 字串反轉：stringReverse
@@ -52,16 +52,16 @@ npm run test
 ### module 匯入匯出
 - V 個人資訊管理模組：personalInfoModule
 - V 公共工具函式模組：utilityFunctionsModule
-- 數據處理模組：dataProcessingModule
-用戶資訊擴展：userInfoExtension
+- V 數據處理模組：dataProcessingModule
+- V 用戶資訊擴展：userInfoExtension
 
 ### 泛型
-- 資料儲存：DataStore
-- 設置物件存取器：objectAccessor
-- 過濾函式：filterByProperty
+- V 資料儲存：DataStore
+- V 設置物件存取器：objectAccessor
+- V 過濾函式：filterByProperty
 
 ### 延伸
-- 使用 Map 和 Set：uniqueElements
-- 使用 Promise 和 async/await：fetchData
-- 非同步設計計算陣列總和：asyncSum
-- 購物車邏輯：ShoppingCart
+- V 使用 Map 和 Set：uniqueElements
+- V 使用 Promise 和 async/await：fetchData
+- V 非同步設計計算陣列總和：asyncSum
+- V 購物車邏輯：ShoppingCart
